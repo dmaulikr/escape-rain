@@ -13,6 +13,11 @@
 		AF1D43B41F5BBA2F00003E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43B21F5BBA2F00003E61 /* Main.storyboard */; };
 		AF1D43B61F5BBA2F00003E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43B51F5BBA2F00003E61 /* Assets.xcassets */; };
 		AF1D43B91F5BBA2F00003E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43B71F5BBA2F00003E61 /* LaunchScreen.storyboard */; };
+		AF1D43C21F5BC28B00003E61 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C11F5BC28B00003E61 /* GameKit.framework */; };
+		AF1D43C41F5BC29600003E61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C31F5BC29600003E61 /* Foundation.framework */; };
+		AF1D43C61F5BC2A100003E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C51F5BC2A100003E61 /* CoreGraphics.framework */; };
+		AF1D43C81F5BC2AB00003E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C71F5BC2AB00003E61 /* UIKit.framework */; };
+		AF1D43CA1F5BC2B700003E61 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C91F5BC2B700003E61 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		AF1D43B51F5BBA2F00003E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF1D43B81F5BBA2F00003E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF1D43BA1F5BBA2F00003E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1D43C11F5BC28B00003E61 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AF1D43C31F5BC29600003E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF1D43C51F5BC2A100003E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF1D43C71F5BC2AB00003E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF1D43C91F5BC2B700003E61 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1D43CA1F5BC2B700003E61 /* SpriteKit.framework in Frameworks */,
+				AF1D43C81F5BC2AB00003E61 /* UIKit.framework in Frameworks */,
+				AF1D43C61F5BC2A100003E61 /* CoreGraphics.framework in Frameworks */,
+				AF1D43C41F5BC29600003E61 /* Foundation.framework in Frameworks */,
+				AF1D43C21F5BC28B00003E61 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,7 @@
 			children = (
 				AF1D43A81F5BBA2F00003E61 /* escape-rain */,
 				AF1D43A71F5BBA2F00003E61 /* Products */,
+				AF1D43C01F5BC28B00003E61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +93,18 @@
 				AF1D43AA1F5BBA2F00003E61 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF1D43C01F5BC28B00003E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D43C91F5BC2B700003E61 /* SpriteKit.framework */,
+				AF1D43C71F5BC2AB00003E61 /* UIKit.framework */,
+				AF1D43C51F5BC2A100003E61 /* CoreGraphics.framework */,
+				AF1D43C31F5BC29600003E61 /* Foundation.framework */,
+				AF1D43C11F5BC28B00003E61 /* GameKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
