@@ -18,6 +18,13 @@
 		AF1D43C61F5BC2A100003E61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C51F5BC2A100003E61 /* CoreGraphics.framework */; };
 		AF1D43C81F5BC2AB00003E61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C71F5BC2AB00003E61 /* UIKit.framework */; };
 		AF1D43CA1F5BC2B700003E61 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1D43C91F5BC2B700003E61 /* SpriteKit.framework */; };
+		AF1D43D31F5BCA1500003E61 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43CD1F5BCA1500003E61 /* SSKeychain.strings */; };
+		AF1D43D41F5BCA1500003E61 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D43D01F5BCA1500003E61 /* SSKeychain.m */; };
+		AF1D43D51F5BCA1500003E61 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D43D21F5BCA1500003E61 /* SSKeychainQuery.m */; };
+		AF1D43DB1F5BCAB700003E61 /* bgm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43D71F5BCAB700003E61 /* bgm.m4a */; };
+		AF1D43DC1F5BCAB700003E61 /* button-in.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43D81F5BCAB700003E61 /* button-in.m4a */; };
+		AF1D43DD1F5BCAB700003E61 /* button-out.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43D91F5BCAB700003E61 /* button-out.m4a */; };
+		AF1D43DE1F5BCAB700003E61 /* wet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43DA1F5BCAB700003E61 /* wet.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,16 @@
 		AF1D43C51F5BC2A100003E61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AF1D43C71F5BC2AB00003E61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF1D43C91F5BC2B700003E61 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		AF1D43CE1F5BCA1500003E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		AF1D43CF1F5BCA1500003E61 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		AF1D43D01F5BCA1500003E61 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		AF1D43D11F5BCA1500003E61 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		AF1D43D21F5BCA1500003E61 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
+		AF1D43D71F5BCAB700003E61 /* bgm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgm.m4a; sourceTree = "<group>"; };
+		AF1D43D81F5BCAB700003E61 /* button-in.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "button-in.m4a"; sourceTree = "<group>"; };
+		AF1D43D91F5BCAB700003E61 /* button-out.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "button-out.m4a"; sourceTree = "<group>"; };
+		AF1D43DA1F5BCAB700003E61 /* wet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wet.m4a; sourceTree = "<group>"; };
+		AF1D43DF1F5BCC6F00003E61 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +91,8 @@
 		AF1D43A81F5BBA2F00003E61 /* escape-rain */ = {
 			isa = PBXGroup;
 			children = (
+				AF1D43D61F5BCAB700003E61 /* Sounds */,
+				AF1D43CB1F5BCA1500003E61 /* Library */,
 				AF1D43AC1F5BBA2F00003E61 /* AppDelegate.h */,
 				AF1D43AD1F5BBA2F00003E61 /* AppDelegate.m */,
 				AF1D43AF1F5BBA2F00003E61 /* ViewController.h */,
@@ -91,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				AF1D43AA1F5BBA2F00003E61 /* main.m */,
+				AF1D43DF1F5BCC6F00003E61 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -105,6 +125,37 @@
 				AF1D43C11F5BC28B00003E61 /* GameKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1D43CB1F5BCA1500003E61 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D43CC1F5BCA1500003E61 /* SSKeychain */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		AF1D43CC1F5BCA1500003E61 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D43CD1F5BCA1500003E61 /* SSKeychain.strings */,
+				AF1D43CF1F5BCA1500003E61 /* SSKeychain.h */,
+				AF1D43D01F5BCA1500003E61 /* SSKeychain.m */,
+				AF1D43D11F5BCA1500003E61 /* SSKeychainQuery.h */,
+				AF1D43D21F5BCA1500003E61 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
+			sourceTree = "<group>";
+		};
+		AF1D43D61F5BCAB700003E61 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D43D71F5BCAB700003E61 /* bgm.m4a */,
+				AF1D43D81F5BCAB700003E61 /* button-in.m4a */,
+				AF1D43D91F5BCAB700003E61 /* button-out.m4a */,
+				AF1D43DA1F5BCAB700003E61 /* wet.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +217,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1D43DD1F5BCAB700003E61 /* button-out.m4a in Resources */,
+				AF1D43D31F5BCA1500003E61 /* SSKeychain.strings in Resources */,
+				AF1D43DC1F5BCAB700003E61 /* button-in.m4a in Resources */,
 				AF1D43B91F5BBA2F00003E61 /* LaunchScreen.storyboard in Resources */,
 				AF1D43B61F5BBA2F00003E61 /* Assets.xcassets in Resources */,
+				AF1D43DB1F5BCAB700003E61 /* bgm.m4a in Resources */,
 				AF1D43B41F5BBA2F00003E61 /* Main.storyboard in Resources */,
+				AF1D43DE1F5BCAB700003E61 /* wet.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1D43B11F5BBA2F00003E61 /* ViewController.m in Sources */,
+				AF1D43D51F5BCA1500003E61 /* SSKeychainQuery.m in Sources */,
+				AF1D43D41F5BCA1500003E61 /* SSKeychain.m in Sources */,
 				AF1D43AE1F5BBA2F00003E61 /* AppDelegate.m in Sources */,
 				AF1D43AB1F5BBA2F00003E61 /* main.m in Sources */,
 			);
@@ -202,6 +260,14 @@
 				AF1D43B81F5BBA2F00003E61 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1D43CD1F5BCA1500003E61 /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1D43CE1F5BCA1500003E61 /* en */,
+			);
+			name = SSKeychain.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
