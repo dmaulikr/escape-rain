@@ -25,6 +25,13 @@
 		AF1D43DC1F5BCAB700003E61 /* button-in.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43D81F5BCAB700003E61 /* button-in.m4a */; };
 		AF1D43DD1F5BCAB700003E61 /* button-out.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43D91F5BCAB700003E61 /* button-out.m4a */; };
 		AF1D43DE1F5BCAB700003E61 /* wet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43DA1F5BCAB700003E61 /* wet.m4a */; };
+		AF1D43E41F5BD6B100003E61 /* HomeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D43E31F5BD6B100003E61 /* HomeScene.m */; };
+		AF1D43E71F5BD85300003E61 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D43E61F5BD85300003E61 /* GameScene.m */; };
+		AF1D43EB1F5BDB3400003E61 /* ButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D43EA1F5BDB3400003E61 /* ButtonNode.m */; };
+		AF1D43ED1F5BDCA900003E61 /* sprite.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AF1D43EC1F5BDCA900003E61 /* sprite.atlas */; };
+		AF1D43F01F5C306D00003E61 /* PlayerNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1D43EF1F5C306D00003E61 /* PlayerNode.m */; };
+		AFFFBADA1F5EE6A0007A3798 /* CounterHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFFBAD91F5EE6A0007A3798 /* CounterHandler.m */; };
+		AFFFBADD1F5EE719007A3798 /* GuideNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFFBADC1F5EE719007A3798 /* GuideNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +60,19 @@
 		AF1D43D91F5BCAB700003E61 /* button-out.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "button-out.m4a"; sourceTree = "<group>"; };
 		AF1D43DA1F5BCAB700003E61 /* wet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wet.m4a; sourceTree = "<group>"; };
 		AF1D43DF1F5BCC6F00003E61 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AF1D43E21F5BD68900003E61 /* HomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeScene.h; path = Scenes/HomeScene.h; sourceTree = "<group>"; };
+		AF1D43E31F5BD6B100003E61 /* HomeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeScene.m; path = Scenes/HomeScene.m; sourceTree = "<group>"; };
+		AF1D43E51F5BD83A00003E61 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = Scenes/GameScene.h; sourceTree = "<group>"; };
+		AF1D43E61F5BD85300003E61 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameScene.m; path = Scenes/GameScene.m; sourceTree = "<group>"; };
+		AF1D43E91F5BDB1E00003E61 /* ButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonNode.h; sourceTree = "<group>"; };
+		AF1D43EA1F5BDB3400003E61 /* ButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNode.m; sourceTree = "<group>"; };
+		AF1D43EC1F5BDCA900003E61 /* sprite.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprite.atlas; sourceTree = "<group>"; };
+		AF1D43EE1F5C304A00003E61 /* PlayerNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerNode.h; sourceTree = "<group>"; };
+		AF1D43EF1F5C306D00003E61 /* PlayerNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerNode.m; sourceTree = "<group>"; };
+		AFFFBAD81F5EE6A0007A3798 /* CounterHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterHandler.h; sourceTree = "<group>"; };
+		AFFFBAD91F5EE6A0007A3798 /* CounterHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterHandler.m; sourceTree = "<group>"; };
+		AFFFBADB1F5EE719007A3798 /* GuideNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideNode.h; sourceTree = "<group>"; };
+		AFFFBADC1F5EE719007A3798 /* GuideNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +111,11 @@
 		AF1D43A81F5BBA2F00003E61 /* escape-rain */ = {
 			isa = PBXGroup;
 			children = (
+				AF1D43E81F5BDAFD00003E61 /* Custom Nodes */,
+				AF1D43E01F5BD59E00003E61 /* Scenes */,
 				AF1D43D61F5BCAB700003E61 /* Sounds */,
 				AF1D43CB1F5BCA1500003E61 /* Library */,
+				AF1D43EC1F5BDCA900003E61 /* sprite.atlas */,
 				AF1D43AC1F5BBA2F00003E61 /* AppDelegate.h */,
 				AF1D43AD1F5BBA2F00003E61 /* AppDelegate.m */,
 				AF1D43AF1F5BBA2F00003E61 /* ViewController.h */,
@@ -158,6 +181,32 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		AF1D43E01F5BD59E00003E61 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D43E21F5BD68900003E61 /* HomeScene.h */,
+				AF1D43E31F5BD6B100003E61 /* HomeScene.m */,
+				AF1D43E51F5BD83A00003E61 /* GameScene.h */,
+				AF1D43E61F5BD85300003E61 /* GameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		AF1D43E81F5BDAFD00003E61 /* Custom Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				AF1D43E91F5BDB1E00003E61 /* ButtonNode.h */,
+				AF1D43EA1F5BDB3400003E61 /* ButtonNode.m */,
+				AF1D43EE1F5C304A00003E61 /* PlayerNode.h */,
+				AF1D43EF1F5C306D00003E61 /* PlayerNode.m */,
+				AFFFBAD81F5EE6A0007A3798 /* CounterHandler.h */,
+				AFFFBAD91F5EE6A0007A3798 /* CounterHandler.m */,
+				AFFFBADB1F5EE719007A3798 /* GuideNode.h */,
+				AFFFBADC1F5EE719007A3798 /* GuideNode.m */,
+			);
+			path = "Custom Nodes";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1D43DD1F5BCAB700003E61 /* button-out.m4a in Resources */,
+				AF1D43ED1F5BDCA900003E61 /* sprite.atlas in Resources */,
 				AF1D43D31F5BCA1500003E61 /* SSKeychain.strings in Resources */,
 				AF1D43DC1F5BCAB700003E61 /* button-in.m4a in Resources */,
 				AF1D43B91F5BBA2F00003E61 /* LaunchScreen.storyboard in Resources */,
@@ -235,8 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF1D43F01F5C306D00003E61 /* PlayerNode.m in Sources */,
+				AFFFBADA1F5EE6A0007A3798 /* CounterHandler.m in Sources */,
 				AF1D43B11F5BBA2F00003E61 /* ViewController.m in Sources */,
+				AF1D43EB1F5BDB3400003E61 /* ButtonNode.m in Sources */,
+				AF1D43E41F5BD6B100003E61 /* HomeScene.m in Sources */,
+				AFFFBADD1F5EE719007A3798 /* GuideNode.m in Sources */,
 				AF1D43D51F5BCA1500003E61 /* SSKeychainQuery.m in Sources */,
+				AF1D43E71F5BD85300003E61 /* GameScene.m in Sources */,
 				AF1D43D41F5BCA1500003E61 /* SSKeychain.m in Sources */,
 				AF1D43AE1F5BBA2F00003E61 /* AppDelegate.m in Sources */,
 				AF1D43AB1F5BBA2F00003E61 /* main.m in Sources */,
@@ -404,6 +460,7 @@
 				AF1D43BF1F5BBA2F00003E61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
